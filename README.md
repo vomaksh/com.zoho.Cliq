@@ -30,3 +30,7 @@ flatpak remove com.zoho.Cliq
 ## Contributing
 
 Contributions are welcome! If you encounter issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+## Todos
+
+- [ ] Add GitHub workflow which creates flatpak builds
