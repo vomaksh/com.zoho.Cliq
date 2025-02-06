@@ -12,7 +12,7 @@ Before you begin, ensure you have the following installed on your system from yo
 ## How to build?
 
 ```sh
-flatpak-builder --user --install --force-clean build cliq.yaml
+flatpak-builder --user --install-deps-from=flathub --install --force-clean build cliq.yaml
 ```
 
 ## How to Install?
@@ -33,4 +33,5 @@ Contributions are welcome! If you encounter issues or have suggestions for impro
 
 ## Todos
 
+- [ ] Add build script (above build section needs more prerequisities)
 - [ ] Add GitHub workflow which creates flatpak builds
